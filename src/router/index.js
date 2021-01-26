@@ -14,6 +14,9 @@ const router = createRouter({
     },{
       path: '/rem', // rem 测试页面
       component: ()=> import('/@/pages/rem/index.vue')
+    },{
+      path: '/vant',
+      component: ()=> import('/@/pages/vant/index.vue')
     }
   ]
 })

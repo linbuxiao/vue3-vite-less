@@ -6,6 +6,7 @@ import store from '/@/store'
 import App from './App.vue'
 import './index.css'
 import './lib/rem.js'
+import 'vant/lib/index.css';
 
 
 
