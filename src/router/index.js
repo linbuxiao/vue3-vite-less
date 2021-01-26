@@ -12,6 +12,10 @@ const router = createRouter({
     {
       path: '/test',
       component: ()=> import('/@/pages/test/index.vue')
+    },
+    {
+      path: '/dayjs',
+      component: ()=> import('/@/pages/dayjs/index.vue')
     }
   ]
 })
