@@ -1,0 +1,1 @@
+let e=document.createElement("style");e.innerHTML="",document.head.appendChild(e);import{o as t,c as n}from"./index.e9afb19f.js";var r={};r.render=function(e,r,d,a,l,o){return t(),n("div",null,"test")};export default r;
