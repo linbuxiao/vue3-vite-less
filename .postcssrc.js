@@ -5,7 +5,7 @@ module.exports = {
     //   browsers: ['Android >= 4.0', 'iOS >= 7']
     // },
     "postcss-pxtorem": { 
-      "rootValue": 32,
+      "rootValue": 16,
       "propList": ["*"]
     }
   }
