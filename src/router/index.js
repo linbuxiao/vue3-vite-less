@@ -8,10 +8,12 @@ const router = createRouter({
     {
       path: '/',
       component: ()=> import('/@/pages/home/index.vue')
-    },
-    {
-      path: '/test',
+    },{
+      path: '/test', // vuex 测试页面
       component: ()=> import('/@/pages/test/index.vue')
+    },{
+      path: '/rem', // rem 测试页面
+      component: ()=> import('/@/pages/rem/index.vue')
     }
   ]
 })
