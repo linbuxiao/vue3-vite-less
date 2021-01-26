@@ -1,5 +1,5 @@
 <template>
-  <section>
+  <section class="home">
     Home
   </section>
 </template>
@@ -10,6 +10,8 @@ export default {
 }
 </script>
 
-<style>
-
+<style lang="less" scoped>
+.home {
+  background-color: aqua;
+}
 </style>
